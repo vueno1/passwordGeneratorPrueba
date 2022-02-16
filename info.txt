@@ -1,0 +1,16 @@
+<h1 class="title">Password Generator</h1>
+<h3 class="password-display">password</h3>
+
+<form id="passwordGeneratorForm" class="form">
+            
+<div class="character-amount-container">
+    <input type="range" min="1" max="50" value="10" id="characterAmountRange">
+    <input class="number-input" type="number" min="1" max="50" value="10" id="characterAmountNumber">
+</div>
+
+          
+<input type="checkbox" id="includeUppercase">
+<input type="checkbox" id="includeNumbers">
+<input type="checkbox" id="includeSymbols">
+
+<button class="btn" type="submit">genera password</button>
